@@ -232,6 +232,56 @@ export function HomePage() {
         </div>
       </section>
 
+      {/* Specialized Therapies Preview */}
+      <section className="py-12 md:py-16">
+        <div className="mx-auto max-w-7xl px-4">
+          <SectionHeader title={t("section.specializedTherapies")} subtitle={t("section.specializedTherapiesSubtitle")} />
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            {[
+              { key: "painRelief", img: "https://images.pexels.com/photos/9443827/pexels-photo-9443827.jpeg?auto=compress&cs=tinysrgb&w=600" },
+              { key: "holisticHealing", img: "https://images.pexels.com/photos/6187850/pexels-photo-6187850.jpeg?auto=compress&cs=tinysrgb&w=600" },
+              { key: "stressRelief", img: "https://images.pexels.com/photos/7556611/pexels-photo-7556611.jpeg?auto=compress&cs=tinysrgb&w=600" },
+              { key: "mindBody", img: "https://images.pexels.com/photos/3323892/pexels-photo-3323892.jpeg?auto=compress&cs=tinysrgb&w=600" },
+              { key: "postPregnancy", img: "https://images.pexels.com/photos/29438013/pexels-photo-29438013.jpeg?auto=compress&cs=tinysrgb&w=600" },
+              { key: "diastasisRecti", img: "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg?auto=compress&cs=tinysrgb&w=600" },
+              { key: "homeVisitSpecialized", img: "https://images.pexels.com/photos/14253999/pexels-photo-14253999.jpeg?auto=compress&cs=tinysrgb&w=600" },
+            ].map((therapy) => (
+              <Link key={therapy.key} to={`/specialized-therapies#${therapy.key}`}>
+                <Card className="group overflow-hidden transition-shadow hover:shadow-md h-full">
+                  <div className="relative h-40 overflow-hidden">
+                    <img
+                      src={therapy.img}
+                      alt={t(`specialTherapy.${therapy.key}`)}
+                      className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                    <h3 className="absolute bottom-3 left-3 right-3 text-sm font-semibold text-white leading-tight">
+                      {t(`specialTherapy.${therapy.key}`)}
+                    </h3>
+                  </div>
+                  <CardContent className="p-3">
+                    <p className="text-xs text-muted-foreground line-clamp-2">{t(`specialTherapy.${therapy.key}Desc`)}</p>
+                    <span className="mt-2 inline-flex items-center gap-1 text-xs text-primary font-medium">
+                      {t("cta.learnMore")}
+                      <ChevronRight className="h-3 w-3" />
+                    </span>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-8 text-center">
+            <Link to="/specialized-therapies">
+              <Button variant="outline" className="gap-2">
+                {t("cta.viewAll")}
+                <ArrowRight className="h-4 w-4" />
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Conditions Treated Preview */}
       <section className="py-12 md:py-16">
         <div className="mx-auto max-w-7xl px-4">
