@@ -282,6 +282,38 @@ export function HomePage() {
         </div>
       </section>
 
+      {/* Holistic Approach Highlight */}
+      <section className="bg-card py-12 md:py-20">
+        <div className="mx-auto max-w-7xl px-4">
+          <div className="grid gap-8 items-center md:grid-cols-2 lg:gap-12">
+            <div className="relative rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src="/images/_SpecializedTherapies-images/Holistic_Approach_Healing.jpeg"
+                alt={t("holistic.title")}
+                className="h-64 w-full object-cover md:h-80 lg:h-96"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent" />
+            </div>
+            <div className="space-y-5">
+              <Badge variant="secondary" className="text-xs">{lang === "hi" ? "समग्र दृष्टिकोण" : "Holistic Approach"}</Badge>
+              <h2 className="text-2xl font-bold tracking-tight md:text-3xl lg:text-4xl leading-tight">
+                {t("holistic.title")}
+              </h2>
+              <p className="text-muted-foreground text-sm leading-relaxed">{t("holistic.line1")}</p>
+              <p className="text-muted-foreground text-sm leading-relaxed">{t("holistic.line2")}</p>
+              <p className="text-muted-foreground text-sm leading-relaxed">{t("holistic.line3")}</p>
+              <Link to="/specialized-therapies#holisticHealing">
+                <Button className="gap-2 mt-2">
+                  {t("holistic.cta")}
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Conditions Treated Preview */}
       <section className="py-12 md:py-16">
         <div className="mx-auto max-w-7xl px-4">
