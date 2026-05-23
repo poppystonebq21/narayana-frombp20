@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async"
-import { Zap, Target, Activity, Shield, Sparkles, Hop as HomeIcon, CircleCheck as CheckCircle, ArrowRight, Clock, Phone, Calendar } from "lucide-react"
+import { Zap, Target, Activity, Shield, Sparkles, Hop as HomeIcon, CircleCheck as CheckCircle, ArrowRight, Phone, Calendar } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -13,7 +13,7 @@ const serviceDetails = [
     key: "laser",
     icon: Zap,
     img: "/service-laser-therapy.webp",
-    duration: "15-20 min",
+
     sessions: "8-12",
     benefits: ["Deep tissue healing", "Pain reduction", "Inflammation control", "Accelerated recovery", "Non-invasive treatment"],
     benefitsHi: ["गहरे ऊतक उपचार", "दर्द कम करना", "सूजन नियंत्रण", "तेजी से रिकवरी", "गैर-आक्रामक उपचार"],
@@ -22,7 +22,7 @@ const serviceDetails = [
     key: "cupping",
     icon: Target,
     img: "/service-cupping-therapy.webp",
-    duration: "20-30 min",
+
     sessions: "6-10",
     benefits: ["Improved blood circulation", "Muscle tension relief", "Toxin removal", "Pain reduction", "Promotes natural healing"],
     benefitsHi: ["रक्त संचार में सुधार", "मांसपेशियों के तनाव से राहत", "विषाक्त पदार्थों को हटाना", "दर्द में कमी", "प्राकृतिक उपचार को बढ़ावा"],
@@ -31,7 +31,7 @@ const serviceDetails = [
     key: "dryNeedling",
     icon: Activity,
     img: "/service-dry-needling.webp",
-    duration: "20-30 min",
+
     sessions: "6-8",
     benefits: ["Trigger point release", "Muscle pain relief", "Improved flexibility", "Faster recovery", "Increased range of motion"],
     benefitsHi: ["ट्रिगर पॉइंट रिलीज", "मांसपेशियों के दर्द में राहत", "बेहतर लचीलापन", "तेजी से रिकवरी", "गति की सीमा में वृद्धि"],
@@ -40,7 +40,7 @@ const serviceDetails = [
     key: "taping",
     icon: Shield,
     img: "/service-taping-therapy.webp",
-    duration: "15-20 min",
+
     sessions: "As needed",
     benefits: ["Joint support", "Pain management", "Muscle activation", "Injury prevention", "Supports during recovery"],
     benefitsHi: ["जोड़ों का सहारा", "दर्द प्रबंधन", "मांसपेशियों की सक्रियता", "चोट की रोकथाम", "रिकवरी के दौरान सहायता"],
@@ -49,7 +49,7 @@ const serviceDetails = [
     key: "mfr",
     icon: Sparkles,
     img: "/service-mfr-therapy.webp",
-    duration: "30-45 min",
+
     sessions: "8-12",
     benefits: ["Fascial tension release", "Improved mobility", "Chronic pain relief", "Posture correction", "Reduced muscle stiffness"],
     benefitsHi: ["फेशियल तनाव रिलीज", "बेहतर गतिशीलता", "पुराने दर्द से राहत", "पोस्चर सुधार", "मांसपेशियों की कठोरता में कमी"],
@@ -58,7 +58,7 @@ const serviceDetails = [
     key: "homeVisit",
     icon: HomeIcon,
     img: "/service-home-visit.webp",
-    duration: "45-60 min",
+
     sessions: "Based on condition",
     benefits: ["Treatment at your doorstep", "All therapies available", "Portable equipment", "Flexible scheduling", "Comfortable environment"],
     benefitsHi: ["आपके दरवाजे पर उपचार", "सभी थेरेपी उपलब्ध", "पोर्टेबल उपकरण", "लचीला शेड्यूल", "आरामदायक वातावरण"],
@@ -122,7 +122,6 @@ export function ServicesPage() {
                     </div>
                     <p className="text-sm text-muted-foreground">{t(`service.${service.key}Desc`)}</p>
                     <div className="mt-4 flex gap-4 text-xs text-muted-foreground">
-                      <span className="flex items-center gap-1"><Clock className="h-3.5 w-3.5" /> {service.duration}</span>
                       <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5" /> {service.sessions} {lang === "hi" ? "सत्र" : "sessions"}</span>
                     </div>
                     <div className="mt-4 space-y-2">
