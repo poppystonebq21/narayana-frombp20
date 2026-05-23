@@ -503,7 +503,7 @@ export function HomePage() {
                   </div>
                   <div className="mt-4 flex flex-wrap gap-3">
                     <a
-                      href="https://www.google.com/maps/search/ATS+Kocoon+Sector+109+Gurugram"
+                      href="https://maps.app.goo.gl/7BZsuhMvPhuTnF7G6"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

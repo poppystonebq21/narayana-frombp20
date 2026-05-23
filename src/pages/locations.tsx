@@ -120,7 +120,7 @@ export function LocationsPage() {
 
                       <div className="flex flex-wrap gap-2 pt-2">
                         <a
-                          href={`https://www.google.com/maps/search/${loc.mapQuery}`}
+                          href="https://maps.app.goo.gl/7BZsuhMvPhuTnF7G6"
                           target="_blank"
                           rel="noopener noreferrer"
                         >

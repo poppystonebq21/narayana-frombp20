@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { Phone, MapPin, Clock, MessageCircle } from "lucide-react"
+import { Phone, MapPin, Clock, MessageCircle, ExternalLink } from "lucide-react"
 import { useI18n } from "@/lib/i18n"
 import { openWhatsApp } from "@/lib/whatsapp"
 
@@ -37,6 +37,24 @@ export function Footer() {
               >
                 <MessageCircle className="h-4 w-4" />
               </button>
+              <a
+                href="https://maps.app.goo.gl/7BZsuhMvPhuTnF7G6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md border p-2 hover:bg-accent transition-colors"
+                title="Google Maps"
+              >
+                <MapPin className="h-4 w-4" />
+              </a>
+              <a
+                href="https://share.google/moU4HHWtXxnvS7GQy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md border p-2 hover:bg-accent transition-colors"
+                title="Google Business"
+              >
+                <ExternalLink className="h-4 w-4" />
+              </a>
             </div>
           </div>
 

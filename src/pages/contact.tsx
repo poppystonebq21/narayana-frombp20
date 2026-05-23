@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async"
 import { useState } from "react"
-import { Phone, MapPin, Clock, MessageCircle, Hop as HomeIcon } from "lucide-react"
+import { Phone, MapPin, Clock, MessageCircle, Hop as HomeIcon, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -269,6 +269,28 @@ export function ContactPage() {
                   <div className="mt-3 flex items-center gap-2 text-xs text-muted-foreground">
                     <Clock className="h-3.5 w-3.5" />
                     {t("timing.morning")} | {t("timing.evening")}
+                  </div>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <a
+                      href="https://maps.app.goo.gl/7BZsuhMvPhuTnF7G6"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline" size="sm" className="gap-1.5 text-xs">
+                        <MapPin className="h-3.5 w-3.5" />
+                        {lang === "hi" ? "Google Maps" : "Google Maps"}
+                      </Button>
+                    </a>
+                    <a
+                      href="https://share.google/moU4HHWtXxnvS7GQy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button variant="outline" size="sm" className="gap-1.5 text-xs">
+                        <ExternalLink className="h-3.5 w-3.5" />
+                        {lang === "hi" ? "Google Business" : "Google Business"}
+                      </Button>
+                    </a>
                   </div>
                 </CardContent>
               </Card>
