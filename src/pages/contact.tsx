@@ -100,7 +100,7 @@ export function ContactPage() {
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground">{t("timing.title")}</p>
-                  <p className="text-xs font-medium">10:30-1:00 | 5:30-8:30</p>
+                  <p className="text-xs font-medium">9:30-1:30 | 5:00-7:30</p>
                 </div>
               </CardContent>
             </Card>

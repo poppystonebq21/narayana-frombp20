@@ -160,11 +160,11 @@ export function LocationsPage() {
                 <div className="grid grid-cols-2 gap-4 text-center">
                   <div className="rounded-lg border p-4">
                     <p className="text-xs text-muted-foreground mb-1">{lang === "hi" ? "सुबह" : "Morning"}</p>
-                    <p className="font-semibold text-sm">10:30 AM - 1:00 PM</p>
+                    <p className="font-semibold text-sm">9:30 AM - 1:30 PM</p>
                   </div>
                   <div className="rounded-lg border p-4">
                     <p className="text-xs text-muted-foreground mb-1">{lang === "hi" ? "शाम" : "Evening"}</p>
-                    <p className="font-semibold text-sm">5:30 PM - 8:30 PM</p>
+                    <p className="font-semibold text-sm">5:00 PM - 7:30 PM</p>
                   </div>
                 </div>
                 <p className="mt-4 text-xs text-center text-muted-foreground">
