@@ -58,7 +58,7 @@ export function HomePage() {
         <meta property="og:title" content={t("seo.homeTitle")} />
         <meta property="og:description" content={t("seo.homeDesc")} />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href="https://narayanaphysiocare.com" />
+        <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site" />
       </Helmet>
 
       {/* Hero Section */}

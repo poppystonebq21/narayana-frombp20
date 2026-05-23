@@ -84,7 +84,7 @@ export function ServicesPage() {
         <meta name="description" content={t("seo.servicesDesc")} />
         <meta property="og:title" content={t("seo.servicesTitle")} />
         <meta property="og:description" content={t("seo.servicesDesc")} />
-        <link rel="canonical" href="https://narayanaphysiocare.com/services" />
+        <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/services" />
       </Helmet>
 
       {/* Page Hero */}

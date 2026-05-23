@@ -153,7 +153,7 @@ export function SpecializedTherapiesPage() {
         <meta name="description" content={t("seo.specializedDesc")} />
         <meta property="og:title" content={t("seo.specializedTitle")} />
         <meta property="og:description" content={t("seo.specializedDesc")} />
-        <link rel="canonical" href="https://narayanaphysiocare.com/specialized-therapies" />
+        <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/specialized-therapies" />
       </Helmet>
 
       {/* Hero Section */}

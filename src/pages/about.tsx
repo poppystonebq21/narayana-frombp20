@@ -29,7 +29,7 @@ export function AboutPage() {
         <meta name="description" content={t("seo.aboutDesc")} />
         <meta property="og:title" content={t("seo.aboutTitle")} />
         <meta property="og:description" content={t("seo.aboutDesc")} />
-        <link rel="canonical" href="https://narayanaphysiocare.com/about" />
+        <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/about" />
       </Helmet>
 
       {/* Page Hero */}

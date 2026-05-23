@@ -37,7 +37,7 @@ export function ContactPage() {
         <meta name="description" content={t("seo.contactDesc")} />
         <meta property="og:title" content={t("seo.contactTitle")} />
         <meta property="og:description" content={t("seo.contactDesc")} />
-        <link rel="canonical" href="https://narayanaphysiocare.com/contact" />
+        <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/contact" />
       </Helmet>
 
       {/* Page Hero */}

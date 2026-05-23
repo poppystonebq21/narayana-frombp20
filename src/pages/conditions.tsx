@@ -117,7 +117,7 @@ export function ConditionsPage() {
         <meta name="description" content={t("seo.conditionsDesc")} />
         <meta property="og:title" content={t("seo.conditionsTitle")} />
         <meta property="og:description" content={t("seo.conditionsDesc")} />
-        <link rel="canonical" href="https://narayanaphysiocare.com/conditions" />
+        <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/conditions" />
       </Helmet>
 
       {/* Page Hero */}

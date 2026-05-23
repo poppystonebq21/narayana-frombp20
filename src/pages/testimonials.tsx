@@ -51,7 +51,7 @@ export function TestimonialsPage() {
         <meta name="description" content={t("seo.testimonialsDesc")} />
         <meta property="og:title" content={t("seo.testimonialsTitle")} />
         <meta property="og:description" content={t("seo.testimonialsDesc")} />
-        <link rel="canonical" href="https://narayanaphysiocare.com/testimonials" />
+        <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/testimonials" />
       </Helmet>
 
       {/* Page Hero */}

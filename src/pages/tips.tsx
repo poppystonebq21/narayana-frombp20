@@ -80,7 +80,7 @@ export function TipsPage() {
         <meta name="description" content={t("seo.tipsDesc")} />
         <meta property="og:title" content={t("seo.tipsTitle")} />
         <meta property="og:description" content={t("seo.tipsDesc")} />
-        <link rel="canonical" href="https://narayanaphysiocare.com/tips" />
+        <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/tips" />
       </Helmet>
 
       {/* Page Hero */}
