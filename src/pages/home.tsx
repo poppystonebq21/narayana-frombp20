@@ -238,13 +238,13 @@ export function HomePage() {
           <SectionHeader title={t("section.specializedTherapies")} subtitle={t("section.specializedTherapiesSubtitle")} />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {[
-              { key: "painRelief", img: "https://images.pexels.com/photos/9443827/pexels-photo-9443827.jpeg?auto=compress&cs=tinysrgb&w=600" },
-              { key: "holisticHealing", img: "https://images.pexels.com/photos/6187850/pexels-photo-6187850.jpeg?auto=compress&cs=tinysrgb&w=600" },
-              { key: "stressRelief", img: "https://images.pexels.com/photos/7556611/pexels-photo-7556611.jpeg?auto=compress&cs=tinysrgb&w=600" },
-              { key: "mindBody", img: "https://images.pexels.com/photos/3323892/pexels-photo-3323892.jpeg?auto=compress&cs=tinysrgb&w=600" },
-              { key: "postPregnancy", img: "https://images.pexels.com/photos/29438013/pexels-photo-29438013.jpeg?auto=compress&cs=tinysrgb&w=600" },
-              { key: "diastasisRecti", img: "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg?auto=compress&cs=tinysrgb&w=600" },
-              { key: "homeVisitSpecialized", img: "https://images.pexels.com/photos/14253999/pexels-photo-14253999.jpeg?auto=compress&cs=tinysrgb&w=600" },
+              { key: "painRelief", img: "/images/_SpecializedTherapies-images/PainReliefRootCauseTreatment.jpeg" },
+              { key: "holisticHealing", img: "/images/_SpecializedTherapies-images/Holistic_Approach_Healing.jpeg" },
+              { key: "stressRelief", img: "/images/_SpecializedTherapies-images/Stress_Relief_&_Emotional_Healing_Therapy.jpeg" },
+              { key: "mindBody", img: "/images/_SpecializedTherapies-images/MindBodyBalanceRelaxationTherapy.jpeg" },
+              { key: "postPregnancy", img: "/images/_SpecializedTherapies-images/Post-PregnancyCareandRehabilitation.jpeg" },
+              { key: "diastasisRecti", img: "/images/_SpecializedTherapies-images/DiastasisRectiCorrectionTherapy.jpeg" },
+              { key: "homeVisitSpecialized", img: "/images/_SpecializedTherapies-images/HomeVisitPhysiotherapyAvailable.jpeg" },
             ].map((therapy) => (
               <Link key={therapy.key} to={`/specialized-therapies#${therapy.key}`}>
                 <Card className="group overflow-hidden transition-shadow hover:shadow-md h-full">

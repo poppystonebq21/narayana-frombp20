@@ -11,7 +11,7 @@ const specializedTherapies = [
   {
     key: "painRelief",
     icon: Heart,
-    img: "https://images.pexels.com/photos/9443827/pexels-photo-9443827.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "/images/_SpecializedTherapies-images/PainReliefRootCauseTreatment.jpeg",
     benefits: [
       "Advanced root cause diagnosis",
       "Targeted pain elimination",
@@ -30,7 +30,7 @@ const specializedTherapies = [
   {
     key: "holisticHealing",
     icon: Leaf,
-    img: "https://images.pexels.com/photos/6187850/pexels-photo-6187850.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "/images/_SpecializedTherapies-images/Holistic_Approach_Healing.jpeg",
     benefits: [
       "Whole-body healing approach",
       "Natural therapeutic techniques",
@@ -49,7 +49,7 @@ const specializedTherapies = [
   {
     key: "stressRelief",
     icon: Brain,
-    img: "https://images.pexels.com/photos/7556611/pexels-photo-7556611.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "/images/_SpecializedTherapies-images/Stress_Relief_&_Emotional_Healing_Therapy.jpeg",
     benefits: [
       "Release physical tension from stress",
       "Anxiety and cortisol reduction",
@@ -68,7 +68,7 @@ const specializedTherapies = [
   {
     key: "mindBody",
     icon: Sparkles,
-    img: "https://images.pexels.com/photos/3323892/pexels-photo-3323892.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "/images/_SpecializedTherapies-images/MindBodyBalanceRelaxationTherapy.jpeg",
     benefits: [
       "Guided breathing techniques",
       "Deep relaxation therapy",
@@ -87,7 +87,7 @@ const specializedTherapies = [
   {
     key: "postPregnancy",
     icon: Baby,
-    img: "https://images.pexels.com/photos/29438013/pexels-photo-29438013.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "/images/_SpecializedTherapies-images/Post-PregnancyCareandRehabilitation.jpeg",
     benefits: [
       "Core strength rebuilding",
       "Pelvic floor rehabilitation",
@@ -106,7 +106,7 @@ const specializedTherapies = [
   {
     key: "diastasisRecti",
     icon: ShieldCheck,
-    img: "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "/images/_SpecializedTherapies-images/DiastasisRectiCorrectionTherapy.jpeg",
     benefits: [
       "Abdominal gap assessment",
       "Targeted core exercises",
@@ -125,7 +125,7 @@ const specializedTherapies = [
   {
     key: "homeVisitSpecialized",
     icon: HomeIcon,
-    img: "https://images.pexels.com/photos/14253999/pexels-photo-14253999.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "/images/_SpecializedTherapies-images/HomeVisitPhysiotherapyAvailable.jpeg",
     benefits: [
       "All therapies at your doorstep",
       "Comfortable home environment",
