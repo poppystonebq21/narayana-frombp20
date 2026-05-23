@@ -180,6 +180,8 @@ export function AboutPage() {
               "/images/clinic-images/our-clinic2.jpeg",
               "/images/clinic-images/our-clinic3.jpeg",
               "/images/clinic-images/our-clinic4.jpeg",
+              "/images/clinic-images/our-clinic-5.jpeg",
+              "/images/clinic-images/our-clinic-6.jpeg",
             ].map((src, i) => (
               <img
                 key={i}
