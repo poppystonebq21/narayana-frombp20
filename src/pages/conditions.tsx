@@ -115,8 +115,11 @@ export function ConditionsPage() {
       <Helmet>
         <title>{t("seo.conditionsTitle")}</title>
         <meta name="description" content={t("seo.conditionsDesc")} />
+        <meta name="keywords" content="back pain treatment Gurugram, knee pain physiotherapy Gurgaon, frozen shoulder treatment, sciatica treatment Gurugram, cervical spondylosis physiotherapy, arthritis treatment, sports injury rehabilitation Gurgaon, neck pain treatment, plantar fasciitis physiotherapy, post fracture rehabilitation" />
         <meta property="og:title" content={t("seo.conditionsTitle")} />
         <meta property="og:description" content={t("seo.conditionsDesc")} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://narayana-physiocare2.prototype-web.site/images/narayana_physio_care_preview.jpg" />
         <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/conditions" />
       </Helmet>
 

@@ -35,8 +35,11 @@ export function ContactPage() {
       <Helmet>
         <title>{t("seo.contactTitle")}</title>
         <meta name="description" content={t("seo.contactDesc")} />
+        <meta name="keywords" content="book physiotherapy appointment Gurugram, physiotherapy home visit booking, call physiotherapist Gurgaon, WhatsApp physiotherapy appointment, physiotherapy consultation Sector 109" />
         <meta property="og:title" content={t("seo.contactTitle")} />
         <meta property="og:description" content={t("seo.contactDesc")} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://narayana-physiocare2.prototype-web.site/images/narayana_physio_care_preview.jpg" />
         <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/contact" />
       </Helmet>
 

@@ -151,8 +151,11 @@ export function SpecializedTherapiesPage() {
       <Helmet>
         <title>{t("seo.specializedTitle")}</title>
         <meta name="description" content={t("seo.specializedDesc")} />
+        <meta name="keywords" content="holistic physiotherapy Gurugram, post pregnancy physiotherapy Gurgaon, diastasis recti treatment, stress relief therapy, women's health physiotherapy, mind body therapy Gurugram, pain relief root cause treatment, emotional healing therapy" />
         <meta property="og:title" content={t("seo.specializedTitle")} />
         <meta property="og:description" content={t("seo.specializedDesc")} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://narayana-physiocare2.prototype-web.site/images/narayana_physio_care_preview.jpg" />
         <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/specialized-therapies" />
       </Helmet>
 

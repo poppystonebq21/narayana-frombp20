@@ -55,9 +55,11 @@ export function HomePage() {
       <Helmet>
         <title>{t("seo.homeTitle")}</title>
         <meta name="description" content={t("seo.homeDesc")} />
+        <meta name="keywords" content="physiotherapy Gurugram, physiotherapist Gurgaon, best physiotherapy clinic Gurugram, physio near me, physiotherapy Sector 109, physiotherapy Palam Vihar, home physiotherapy Gurgaon, physiotherapy Dwarka Expressway, Dr Anju Jakhar, back pain treatment, knee pain physiotherapy, frozen shoulder, cervical treatment, dry needling, laser therapy, cupping therapy Gurgaon" />
         <meta property="og:title" content={t("seo.homeTitle")} />
         <meta property="og:description" content={t("seo.homeDesc")} />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://narayana-physiocare2.prototype-web.site/images/narayana_physio_care_preview.jpg" />
         <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site" />
       </Helmet>
 
@@ -98,7 +100,7 @@ export function HomePage() {
             <div className="relative">
               <img
                 src="/images/DrAnjuJakhar..jpeg"
-                alt="Physiotherapy treatment session"
+                alt="Dr. Anju Jakhar - Best Physiotherapist in Gurugram at Narayana Physio Care"
                 className="rounded-2xl object-cover w-full h-64 md:h-96 shadow-lg"
                 loading="eager"
               />
@@ -491,17 +493,17 @@ export function HomePage() {
           />
           <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
             {[
-              "/images/clinic-images/clinic-image1.jpeg",
-              "/images/clinic-images/our-clinic2.jpeg",
-              "/images/clinic-images/our-clinic3.jpeg",
-              "/images/clinic-images/our-clinic4.jpeg",
-              "/images/clinic-images/our-clinic-5.jpeg",
-              "/images/clinic-images/our-clinic-6.jpeg",
-            ].map((src, i) => (
+              { src: "/images/clinic-images/clinic-image1.jpeg", alt: "Narayana Physio Care clinic interior in Sector 109 Gurugram" },
+              { src: "/images/clinic-images/our-clinic2.jpeg", alt: "Physiotherapy treatment room with modern equipment in Gurugram" },
+              { src: "/images/clinic-images/our-clinic3.jpeg", alt: "Advanced physiotherapy equipment at Narayana Physio Care" },
+              { src: "/images/clinic-images/our-clinic4.jpeg", alt: "Patient treatment area at physiotherapy clinic Gurugram" },
+              { src: "/images/clinic-images/our-clinic-5.jpeg", alt: "Rehabilitation facility at Narayana Physio Care Sector 109" },
+              { src: "/images/clinic-images/our-clinic-6.jpeg", alt: "Clean and modern physiotherapy clinic in Gurgaon" },
+            ].map((img) => (
               <img
-                key={i}
-                src={src}
-                alt={`Clinic interior ${i + 1}`}
+                key={img.src}
+                src={img.src}
+                alt={img.alt}
                 className="rounded-xl h-40 md:h-52 w-full object-cover"
                 loading="lazy"
               />
@@ -694,6 +696,37 @@ export function HomePage() {
             <span className="flex items-center gap-1"><Phone className="h-3.5 w-3.5" /> 9871001508</span>
             <span className="flex items-center gap-1"><Phone className="h-3.5 w-3.5" /> 7011389138</span>
             <span className="flex items-center gap-1"><Clock className="h-3.5 w-3.5" /> {t("timing.days")}</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Service Areas - Local SEO */}
+      <section className="py-12 md:py-16 bg-card">
+        <div className="mx-auto max-w-7xl px-4">
+          <SectionHeader
+            title={lang === "hi" ? "हमारे सेवा क्षेत्र" : "Areas We Serve in Gurugram"}
+            subtitle={lang === "hi" ? "पूरे गुरुग्राम में क्लिनिक और होम विजिट फिजियोथेरेपी उपलब्ध" : "Clinic & home visit physiotherapy available across all Gurugram areas"}
+          />
+          <p className="text-center text-sm text-muted-foreground max-w-3xl mx-auto mb-8">
+            {lang === "hi"
+              ? "नारायणा फिजियो केयर गुरुग्राम के सभी क्षेत्रों में विशेषज्ञ फिजियोथेरेपी सेवा प्रदान करता है। हमारा क्लिनिक सेक्टर 109 में स्थित है और होम विजिट पूरे शहर में उपलब्ध है।"
+              : "Narayana Physio Care provides expert physiotherapy services across all areas of Gurugram. Our clinic is located in Sector 109 with home visit physiotherapy available city-wide for patients who need treatment at their doorstep."}
+          </p>
+          <div className="flex flex-wrap justify-center gap-2">
+            {[
+              "Sector 109", "Palam Vihar", "Dwarka Expressway", "Sector 108",
+              "Sector 110", "Sector 111", "Sector 112", "Sector 113",
+              "Sohna Road", "Golf Course Road", "Golf Course Extension",
+              "South City", "Sushant Lok", "DLF Phase 1-5", "Manesar",
+              "Sector 56-57", "Sector 45-46", "MG Road", "Udyog Vihar",
+              "Huda City Centre", "Nirvana Country", "Vatika", "New Gurugram",
+              "Sector 82-85", "Sector 65-70", "Badshahpur",
+            ].map((area) => (
+              <Badge key={area} variant="outline" className="text-xs px-3 py-1.5">
+                <MapPin className="h-3 w-3 mr-1" />
+                {area}
+              </Badge>
+            ))}
           </div>
         </div>
       </section>

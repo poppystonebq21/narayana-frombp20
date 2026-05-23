@@ -82,8 +82,11 @@ export function ServicesPage() {
       <Helmet>
         <title>{t("seo.servicesTitle")}</title>
         <meta name="description" content={t("seo.servicesDesc")} />
+        <meta name="keywords" content="physiotherapy services Gurugram, laser therapy Gurgaon, dry needling Gurugram, cupping therapy Gurgaon, MFR therapy, taping therapy, home visit physiotherapy, physiotherapy Sector 109, physiotherapy Palam Vihar, pain relief treatment Gurugram" />
         <meta property="og:title" content={t("seo.servicesTitle")} />
         <meta property="og:description" content={t("seo.servicesDesc")} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://narayana-physiocare2.prototype-web.site/images/narayana_physio_care_preview.jpg" />
         <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/services" />
       </Helmet>
 

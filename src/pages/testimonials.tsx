@@ -49,8 +49,11 @@ export function TestimonialsPage() {
       <Helmet>
         <title>{t("seo.testimonialsTitle")}</title>
         <meta name="description" content={t("seo.testimonialsDesc")} />
+        <meta name="keywords" content="physiotherapy reviews Gurugram, Narayana Physio Care reviews, best physiotherapist reviews Gurgaon, patient testimonials physiotherapy, Dr Anju Jakhar reviews, physiotherapy results Gurugram" />
         <meta property="og:title" content={t("seo.testimonialsTitle")} />
         <meta property="og:description" content={t("seo.testimonialsDesc")} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://narayana-physiocare2.prototype-web.site/images/narayana_physio_care_preview.jpg" />
         <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/testimonials" />
       </Helmet>
 

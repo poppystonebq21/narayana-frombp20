@@ -33,8 +33,11 @@ export function LocationsPage() {
       <Helmet>
         <title>{t("seo.locationsTitle")}</title>
         <meta name="description" content={t("seo.locationsDesc")} />
+        <meta name="keywords" content="physiotherapy clinic Sector 109 Gurugram, Narayana Physio Care location, physiotherapy near me Gurgaon, ATS Kocoon physiotherapy, Palam Vihar physiotherapist, best physio clinic near Dwarka Expressway" />
         <meta property="og:title" content={t("seo.locationsTitle")} />
         <meta property="og:description" content={t("seo.locationsDesc")} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://narayana-physiocare2.prototype-web.site/images/narayana_physio_care_preview.jpg" />
         <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/locations" />
       </Helmet>
 

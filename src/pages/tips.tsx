@@ -372,8 +372,11 @@ export function TipsPage() {
       <Helmet>
         <title>{t("seo.tipsTitle")}</title>
         <meta name="description" content={t("seo.tipsDesc")} />
+        <meta name="keywords" content="physiotherapy exercises, back pain home remedies, knee strengthening exercises, posture correction tips, neck pain relief, shoulder stretches desk workers, when to see physiotherapist, physiotherapy guidance Gurugram" />
         <meta property="og:title" content={t("seo.tipsTitle")} />
         <meta property="og:description" content={t("seo.tipsDesc")} />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://narayana-physiocare2.prototype-web.site/images/narayana_physio_care_preview.jpg" />
         <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/tips" />
       </Helmet>
 

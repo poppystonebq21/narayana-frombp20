@@ -27,8 +27,11 @@ export function AboutPage() {
       <Helmet>
         <title>{t("seo.aboutTitle")}</title>
         <meta name="description" content={t("seo.aboutDesc")} />
+        <meta name="keywords" content="Dr Anju Jakhar physiotherapist, best physiotherapist Gurugram, MPT Ortho physiotherapist Gurgaon, female physiotherapist Gurugram, experienced physiotherapist Sector 109, orthopedic physiotherapy specialist" />
         <meta property="og:title" content={t("seo.aboutTitle")} />
         <meta property="og:description" content={t("seo.aboutDesc")} />
+        <meta property="og:type" content="profile" />
+        <meta property="og:image" content="https://narayana-physiocare2.prototype-web.site/images/narayana_physio_care_preview.jpg" />
         <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/about" />
       </Helmet>
 
