@@ -37,8 +37,8 @@ export function LocationsPage() {
         <meta property="og:title" content={t("seo.locationsTitle")} />
         <meta property="og:description" content={t("seo.locationsDesc")} />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://narayana-physiocare2.prototype-web.site/images/narayana_physio_care_preview.jpg" />
-        <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/locations" />
+        <meta property="og:image" content="https://narayanaphysiocare.in/images/narayana_physio_care_preview.jpg" />
+        <link rel="canonical" href="https://narayanaphysiocare.in/locations" />
       </Helmet>
 
       {/* Page Hero */}

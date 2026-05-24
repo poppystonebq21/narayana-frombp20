@@ -31,8 +31,8 @@ export function AboutPage() {
         <meta property="og:title" content={t("seo.aboutTitle")} />
         <meta property="og:description" content={t("seo.aboutDesc")} />
         <meta property="og:type" content="profile" />
-        <meta property="og:image" content="https://narayana-physiocare2.prototype-web.site/images/narayana_physio_care_preview.jpg" />
-        <link rel="canonical" href="https://narayana-physiocare2.prototype-web.site/about" />
+        <meta property="og:image" content="https://narayanaphysiocare.in/images/narayana_physio_care_preview.jpg" />
+        <link rel="canonical" href="https://narayanaphysiocare.in/about" />
       </Helmet>
 
       {/* Page Hero */}
