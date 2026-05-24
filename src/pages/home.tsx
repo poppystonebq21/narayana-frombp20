@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { Helmet } from "react-helmet-async"
-import { Phone, Clock, MapPin, Navigation, Star, Hop as HomeIcon, Zap, Shield, Heart, Users, Award, CircleCheck as CheckCircle, ArrowRight, ChevronRight, Activity, Target, Sparkles, Calendar } from "lucide-react"
+import { Phone, Clock, MapPin, Navigation, Star, Hop as HomeIcon, Zap, Shield, Heart, Users, Award, CircleCheck as CheckCircle, ArrowRight, ChevronRight, Activity, Target, Sparkles, Calendar, Brain, Baby } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -308,6 +308,76 @@ export function HomePage() {
               <Link to="/specialized-therapies#holisticHealing">
                 <Button className="gap-2 mt-2">
                   {t("holistic.cta")}
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mind-Body Balance Highlight */}
+      <section className="py-12 md:py-20">
+        <div className="mx-auto max-w-7xl px-4">
+          <div className="grid gap-8 items-center md:grid-cols-2 lg:gap-12">
+            <div className="space-y-5 md:order-2">
+              <Badge variant="secondary" className="text-xs">
+                <Brain className="h-3 w-3 mr-1" />
+                {lang === "hi" ? "मन-शरीर संतुलन" : "Mind-Body Balance"}
+              </Badge>
+              <h2 className="text-2xl font-bold tracking-tight md:text-3xl lg:text-4xl leading-tight">
+                {t("mindBody.title")}
+              </h2>
+              <p className="text-muted-foreground text-sm leading-relaxed">{t("mindBody.line1")}</p>
+              <p className="text-muted-foreground text-sm leading-relaxed">{t("mindBody.line2")}</p>
+              <p className="text-muted-foreground text-sm leading-relaxed">{t("mindBody.line3")}</p>
+              <Link to="/specialized-therapies#mindBody">
+                <Button className="gap-2 mt-2">
+                  {t("mindBody.cta")}
+                  <ArrowRight className="h-4 w-4" />
+                </Button>
+              </Link>
+            </div>
+            <div className="relative rounded-2xl overflow-hidden shadow-lg md:order-1">
+              <img
+                src="/images/_SpecializedTherapies-images/MindBodyBalanceRelaxationTherapy.jpeg"
+                alt={t("mindBody.title")}
+                className="h-64 w-full object-cover md:h-80 lg:h-96"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-l from-black/30 to-transparent" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Diastasis Recti Highlight */}
+      <section className="bg-card py-12 md:py-20">
+        <div className="mx-auto max-w-7xl px-4">
+          <div className="grid gap-8 items-center md:grid-cols-2 lg:gap-12">
+            <div className="relative rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src="/images/_SpecializedTherapies-images/DiastasisRectiCorrectionTherapy.jpeg"
+                alt={t("diastasis.title")}
+                className="h-64 w-full object-cover md:h-80 lg:h-96"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-r from-black/30 to-transparent" />
+            </div>
+            <div className="space-y-5">
+              <Badge variant="secondary" className="text-xs">
+                <Baby className="h-3 w-3 mr-1" />
+                {lang === "hi" ? "प्रसवोत्तर देखभाल" : "Post-Pregnancy Care"}
+              </Badge>
+              <h2 className="text-2xl font-bold tracking-tight md:text-3xl lg:text-4xl leading-tight">
+                {t("diastasis.title")}
+              </h2>
+              <p className="text-muted-foreground text-sm leading-relaxed">{t("diastasis.line1")}</p>
+              <p className="text-muted-foreground text-sm leading-relaxed">{t("diastasis.line2")}</p>
+              <p className="text-muted-foreground text-sm leading-relaxed">{t("diastasis.line3")}</p>
+              <Link to="/specialized-therapies#diastasisRecti">
+                <Button className="gap-2 mt-2">
+                  {t("diastasis.cta")}
                   <ArrowRight className="h-4 w-4" />
                 </Button>
               </Link>
