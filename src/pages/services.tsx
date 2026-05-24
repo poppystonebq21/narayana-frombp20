@@ -14,7 +14,7 @@ const serviceDetails = [
     icon: Zap,
     img: "/service-laser-therapy.webp",
 
-    sessions: "8-12",
+    sessions: "As per requirement",
     benefits: ["Deep tissue healing", "Pain reduction", "Inflammation control", "Accelerated recovery", "Non-invasive treatment"],
     benefitsHi: ["गहरे ऊतक उपचार", "दर्द कम करना", "सूजन नियंत्रण", "तेजी से रिकवरी", "गैर-आक्रामक उपचार"],
   },
@@ -23,7 +23,7 @@ const serviceDetails = [
     icon: Target,
     img: "/service-cupping-therapy.webp",
 
-    sessions: "6-10",
+    sessions: "As per requirement",
     benefits: ["Improved blood circulation", "Muscle tension relief", "Toxin removal", "Pain reduction", "Promotes natural healing"],
     benefitsHi: ["रक्त संचार में सुधार", "मांसपेशियों के तनाव से राहत", "विषाक्त पदार्थों को हटाना", "दर्द में कमी", "प्राकृतिक उपचार को बढ़ावा"],
   },
@@ -32,7 +32,7 @@ const serviceDetails = [
     icon: Activity,
     img: "/service-dry-needling.webp",
 
-    sessions: "6-8",
+    sessions: "As per requirement",
     benefits: ["Trigger point release", "Muscle pain relief", "Improved flexibility", "Faster recovery", "Increased range of motion"],
     benefitsHi: ["ट्रिगर पॉइंट रिलीज", "मांसपेशियों के दर्द में राहत", "बेहतर लचीलापन", "तेजी से रिकवरी", "गति की सीमा में वृद्धि"],
   },
@@ -41,7 +41,7 @@ const serviceDetails = [
     icon: Shield,
     img: "/service-taping-therapy.webp",
 
-    sessions: "As needed",
+    sessions: "As per requirement",
     benefits: ["Joint support", "Pain management", "Muscle activation", "Injury prevention", "Supports during recovery"],
     benefitsHi: ["जोड़ों का सहारा", "दर्द प्रबंधन", "मांसपेशियों की सक्रियता", "चोट की रोकथाम", "रिकवरी के दौरान सहायता"],
   },
@@ -50,7 +50,7 @@ const serviceDetails = [
     icon: Sparkles,
     img: "/service-mfr-therapy.webp",
 
-    sessions: "8-12",
+    sessions: "As per requirement",
     benefits: ["Fascial tension release", "Improved mobility", "Chronic pain relief", "Posture correction", "Reduced muscle stiffness"],
     benefitsHi: ["फेशियल तनाव रिलीज", "बेहतर गतिशीलता", "पुराने दर्द से राहत", "पोस्चर सुधार", "मांसपेशियों की कठोरता में कमी"],
   },
@@ -59,7 +59,7 @@ const serviceDetails = [
     icon: HomeIcon,
     img: "/service-home-visit.webp",
 
-    sessions: "Based on condition",
+    sessions: "As per requirement",
     benefits: ["Treatment at your doorstep", "All therapies available", "Portable equipment", "Flexible scheduling", "Comfortable environment"],
     benefitsHi: ["आपके दरवाजे पर उपचार", "सभी थेरेपी उपलब्ध", "पोर्टेबल उपकरण", "लचीला शेड्यूल", "आरामदायक वातावरण"],
   },
