@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://narayana-physiocare2.prototype-web.site/sitemap.xml
+Sitemap: https://narayanaphysiocare.in/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1
