@@ -125,7 +125,7 @@ export function ServicesPage() {
                     </div>
                     <p className="text-sm text-muted-foreground">{t(`service.${service.key}Desc`)}</p>
                     <div className="mt-4 flex gap-4 text-xs text-muted-foreground">
-                      <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5" /> {service.sessions} {lang === "hi" ? "सत्र" : "sessions"}</span>
+                      <span className="flex items-center gap-1"><Calendar className="h-3.5 w-3.5" /> {lang === "hi" ? "सत्र" : "Sessions"}: {service.sessions}</span>
                     </div>
                     <div className="mt-4 space-y-2">
                       {(lang === "hi" ? service.benefitsHi : service.benefits).map((b) => (
